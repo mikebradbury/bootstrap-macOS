@@ -42,11 +42,11 @@ brew tap caskroom/cask
 
 echo "brew installing stuff..."
 brew install git wget tmux trash vim gnupg mas pyenv ripgrep
-brew cask install rectangle \
+brew install --cask rectangle \
 visual-studio-code \
 google-chrome \
 firefox \
-whatsapp \
+signal \
 spotify \
 iterm2 \
 docker \
